@@ -1,7 +1,7 @@
-## LSTI
+# LSTI
 Tugas Besar Layanan STI ITB
 
-# Anggota
+## Anggota
 1. Firdausi Aditya
 2. Ariq Radhitama A.
 3. Lidya Jessica
