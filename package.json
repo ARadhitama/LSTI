@@ -1,0 +1,24 @@
+{
+  "name": "LSTI",
+  "version": "1.0.0",
+  "description": "Tugas Besar Layanan STI ITB",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ARadhitama/LSTI.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ARadhitama/LSTI/issues"
+  },
+  "homepage": "https://github.com/ARadhitama/LSTI#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "pg": "^7.12.1"
+  }
+}
