@@ -14,10 +14,15 @@ app.get('/', (request,response) => {
 })
 
 app.get('/assignment/:id', db.getAssignment)
-app.put('/assignment/:id', db.updateAssignment)
+app.put('/assignment/:id/:idAss', db.updateAssignmentStatus)
 app.get('/user', db.getUser)
 app.get('/user/:id', db.getUserbyID)
+app.put('/user/:id', db.updateUser)
 app.get('/performance/:id', db.getPerformance)
+app.delete('/user/:id', db.deleteUser)
+app.post('/userAssignment/:id', db.newAssignment)
+app.put('/userAssignment/:id', db.updateAssignment)
+app.delete('/userAssignment/:id/:idAss', db.deleteAssignment)
 
 app.listen(port, () => {
     console.log('Running on port ${port}.')
